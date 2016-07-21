@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "font-awesome"; }
+@font-face {
+  font-family: 'VisbyCF-Heavy';
+  src: url("../fonts/VisbyCF/VisbyCF-Heavy.eot");
+  src: url("../fonts/VisbyCF/VisbyCF-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/VisbyCF/VisbyCF-Heavy.woff2") format("woff2"), url("../fonts/VisbyCF/VisbyCF-Heavy.woff") format("woff"), url("../fonts/VisbyCF/VisbyCF-Heavy.ttf") format("truetype"), url("../fonts/VisbyCF/VisbyCF-Heavy.svg#VisbyCF-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'VisbyCF-Medium';
+  src: url("../fonts/VisbyCF/VisbyCF-Medium.eot");
+  src: url("../fonts/VisbyCF/VisbyCF-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/VisbyCF/VisbyCF-Medium.woff2") format("woff2"), url("../fonts/VisbyCF/VisbyCF-Medium.woff") format("woff"), url("../fonts/VisbyCF/VisbyCF-Medium.ttf") format("truetype"), url("../fonts/VisbyCF/VisbyCF-Medium.svg#VisbyCF-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'VisbyCF-DemiBold';
+  src: url("../fonts/VisbyCF/VisbyCF-DemiBold.eot");
+  src: url("../fonts/VisbyCF/VisbyCF-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/VisbyCF/VisbyCF-DemiBold.woff2") format("woff2"), url("../fonts/VisbyCF/VisbyCF-DemiBold.woff") format("woff"), url("../fonts/VisbyCF/VisbyCF-DemiBold.ttf") format("truetype"), url("../fonts/VisbyCF/VisbyCF-DemiBold.svg#VisbyCF-Bold") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'VisbyCF-Bold';
+  src: url("../fonts/VisbyCF/VisbyCF-Bold.eot");
+  src: url("../fonts/VisbyCF/VisbyCF-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/VisbyCF/VisbyCF-Bold.woff2") format("woff2"), url("../fonts/VisbyCF/VisbyCF-Bold.woff") format("woff"), url("../fonts/VisbyCF/VisbyCF-Bold.ttf") format("truetype"), url("../fonts/VisbyCF/VisbyCF-Bold.svg#VisbyCF-Bold") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'VisbyCF-ExtraBoldOblique';
+  src: url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.eot");
+  src: url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.woff") format("woff"), url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.ttf") format("truetype"), url("../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.svg#VisbyCF-ExtraBoldOblique") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url("../fonts/Futura/Futura-Bold.eot");
+  src: url("../fonts/Futura/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/Futura-Bold.woff2") format("woff2"), url("../fonts/Futura/Futura-Bold.woff") format("woff"), url("../fonts/Futura/Futura-Bold.ttf") format("truetype"), url("../fonts/Futura/Futura-Bold.svg#Futura-Bold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+html {
+  height: 100%; }
+
+body {
+  margin: 0 !important;
+  width: 100%;
+  position: relative;
+  padding-bottom: 220px; }
+
+.row {
+  margin: 0; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  letter-spacing: initial;
+  margin: 0;
+  padding: 0; }
+
+section.hero {
+  background: #142736 url("../images/hero-img-full.png") no-repeat bottom right;
+  color: #FFF;
+  min-height: 635px;
+  width: 100% !important;
+  height: 100%;
+  padding-top: 135px;
+  position: relative; }
+  section.hero .heading-text h1, section.hero .heading-text h4 {
+    font-family: 'VisbyCF-Medium', sans-serif; }
+  section.hero .heading-text h1 {
+    margin: 20px 0 25px 0;
+    font-size: 3em; }
+  section.hero .heading-text h4 {
+    width: 50%;
+    margin-bottom: 25px;
+    font-size: 1.65em;
+    line-height: 2em; }
+  section.hero .heading-text h5 {
+    font-family: 'VisbyCF-Heavy', sans-serif;
+    letter-spacing: 1px; }
+  section.hero .heading-text .small-text {
+    font-family: 'VisbyCF-ExtraBoldOblique', sans-serif;
+    font-weight: normal;
+    font-size: 0.857em;
+    letter-spacing: 0.75px; }
+  section.hero .payments {
+    width: 1170px;
+    min-height: 225px;
+    position: absolute;
+    bottom: -30px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    font-family: 'VisbyCF-Medium', sans-serif;
+    font-weight: normal; }
+    section.hero .payments .box {
+      background-color: #FFF;
+      color: #142736;
+      margin: 0;
+      padding: 25px 50px;
+      border-right: 1px solid rgba(0, 0, 0, 0.1); }
+      section.hero .payments .box:last-child {
+        border: none; }
+    section.hero .payments .top-price {
+      font-family: 'VisbyCF-Bold', sans-serif;
+      font-size: 1em; }
+    section.hero .payments .middle-price {
+      color: #3194AD;
+      letter-spacing: 1px; }
+      section.hero .payments .middle-price .large {
+        font-family: 'Futura-Bold', sans-serif;
+        font-size: 3em;
+        color: #142736; }
+    section.hero .payments .bottom-price {
+      margin-bottom: 0;
+      color: #4A4A4A; }
+      section.hero .payments .bottom-price .price {
+        color: #3194AD; }
+    section.hero .payments .last-row-price {
+      color: #4A4A4A;
+      margin-bottom: 2em; }
+    section.hero .payments .btn-default {
+      border-radius: 0;
+      background-color: #3194AD;
+      border-color: #3194AD;
+      padding: 8px 25px;
+      color: #FFF;
+      letter-spacing: 0.75px; }
+      section.hero .payments .btn-default:hover, section.hero .payments .btn-default:focus {
+        background-color: #142736;
+        border-color: #142736;
+        -webkit-transition: all 0.25s ease-in;
+        -moz-transition: all 0.25s ease-in;
+        transition: all 0.25s ease-in; }
+
+@media only screen and (max-width: 320px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+@media only screen and (max-width: 480px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+@media only screen and (max-width: 768px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+@media only screen and (max-width: 992px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+section.value-prop {
+  margin: 100px 0;
+  background-color: #FFF; }
+  section.value-prop .heading-text h2 {
+    font-family: 'VisbyCF-Medium', sans-serif;
+    color: #3194AD;
+    font-weight: normal;
+    font-size: 2.35em;
+    margin-top: 0;
+    margin-bottom: 25px; }
+  section.value-prop .heading-text p {
+    font-family: 'VisbyCF-DemiBold', sans-serif;
+    color: #4A4A4A;
+    font-weight: normal;
+    letter-spacing: 0.85px; }
+  section.value-prop .icons {
+    margin-top: 2em; }
+    section.value-prop .icons .icon {
+      position: relative; }
+      section.value-prop .icons .icon:hover .hover-icon {
+        display: block; }
+      section.value-prop .icons .icon .hover-icon {
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        margin: 0 auto;
+        z-index: 100;
+        background-color: rgba(50, 66, 89, 0.8);
+        -webkit-transition: all 2s ease-in-out;
+        -moz-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out; }
+        section.value-prop .icons .icon .hover-icon i {
+          margin-top: 30%;
+          font-size: 4em;
+          color: #FFF;
+          opacity: 1.0; }
+    section.value-prop .icons p {
+      font-family: 'VisbyCF-Heavy', sans-serif;
+      font-weight: normal;
+      font-size: 0.875em;
+      letter-spacing: 1px;
+      color: #142736;
+      margin-top: 1em; }
+  section.value-prop .comparison-table {
+    padding: 80px 50px;
+    margin-top: 3em;
+    background-color: #FFF;
+    -webkit-box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.2); }
+    section.value-prop .comparison-table table {
+      width: 80%;
+      margin: 0 auto; }
+    section.value-prop .comparison-table caption h5 {
+      font-family: 'VisbyCF-Heavy', sans-serif;
+      font-size: 0.875em;
+      letter-spacing: 1px;
+      color: #142736; }
+    section.value-prop .comparison-table thead th {
+      border-bottom: none;
+      font-family: 'VisbyCF-Bold', sans-serif;
+      font-weight: normal;
+      color: #999999;
+      text-transform: uppercase;
+      font-size: 0.875em;
+      letter-spacing: 0.75px; }
+      section.value-prop .comparison-table thead th:last-child {
+        color: #567199; }
+    section.value-prop .comparison-table tbody tr td {
+      padding: 1.5em;
+      border-top: none;
+      font-family: 'VisbyCF-DemiBold', sans-serif;
+      font-size: 0.875em;
+      color: #999999; }
+      section.value-prop .comparison-table tbody tr td:first-child {
+        color: #616A6E; }
+      section.value-prop .comparison-table tbody tr td:last-child {
+        color: #567199;
+        font-family: 'Futura-Bold', sans-serif; }
+    section.value-prop .comparison-table tbody tr:hover td:last-child {
+      background-color: #567199;
+      color: #FFF; }
+
+footer .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #3C3D41;
+  color: #FFF;
+  min-height: 220px;
+  padding: 2em 0;
+  font-family: 'VisbyCF-Bold', sans-serif;
+  font-size: 0.875em;
+  line-height: 2.25em; }
+  footer .footer ul {
+    list-style-type: none; }
+    footer .footer ul a {
+      color: #FFF; }
+    footer .footer ul.social {
+      padding: 0;
+      margin: 0; }
+      footer .footer ul.social li {
+        float: left;
+        margin: 0 10px; }
+
+/*# sourceMappingURL=base.css.map */
