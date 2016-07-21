@@ -133,38 +133,6 @@ section.hero {
         -moz-transition: all 0.25s ease-in;
         transition: all 0.25s ease-in; }
 
-@media only screen and (max-width: 320px) {
-  section.hero .row {
-    margin: 0; }
-  section.hero .payments {
-    position: relative;
-    width: auto; }
-  section.hero .payments .box {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
-@media only screen and (max-width: 480px) {
-  section.hero .row {
-    margin: 0; }
-  section.hero .payments {
-    position: relative;
-    width: auto; }
-  section.hero .payments .box {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
-@media only screen and (max-width: 768px) {
-  section.hero .row {
-    margin: 0; }
-  section.hero .payments {
-    position: relative;
-    width: auto; }
-  section.hero .payments .box {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
-@media only screen and (max-width: 992px) {
-  section.hero .row {
-    margin: 0; }
-  section.hero .payments {
-    position: relative;
-    width: auto; }
-  section.hero .payments .box {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
 section.value-prop {
   margin: 100px 0;
   background-color: #FFF; }
@@ -278,5 +246,50 @@ footer .footer {
       footer .footer ul.social li {
         float: left;
         margin: 0 10px; }
+
+@media only screen and (max-width: 320px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+  body {
+    padding-bottom: 500px !important; } }
+@media only screen and (max-width: 480px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+  body {
+    padding-bottom: 500px !important; } }
+@media only screen and (max-width: 768px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+  body {
+    padding-bottom: 500px !important; } }
+@media only screen and (max-width: 992px) {
+  section.hero .row {
+    margin: 0; }
+  section.hero .payments {
+    position: relative;
+    width: auto; }
+  section.hero .payments .box {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+  body {
+    padding-bottom: 500px !important; } }
 
 /*# sourceMappingURL=base.css.map */

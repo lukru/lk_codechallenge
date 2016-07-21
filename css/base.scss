@@ -201,35 +201,6 @@ section.hero {
 	}
 }
 
-@media only screen and (max-width: 320px) {
-	section.hero {
-		.row { margin: 0; }
-		.payments { position: relative; width: auto; }
-		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
-	}
-}
-@media only screen and (max-width: 480px) {
-	section.hero {
-		.row { margin: 0; }
-		.payments { position: relative; width: auto; }
-		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
-	}
-}
-@media only screen and (max-width: 768px) {
-	section.hero {
-		.row { margin: 0; }
-		.payments { position: relative; width: auto; }
-		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
-	}
-}
-@media only screen and (max-width: 992px) {
-	section.hero {
-		.row { margin: 0; }
-		.payments { position: relative; width: auto; }
-		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
-	}
-}
-
 // Value Prop Section Styles //
 section.value-prop {
 	margin: 100px 0;
@@ -386,11 +357,49 @@ footer {
 				li {
 					float:left;
 					margin: 0 10px;
-					a {
-						// padding: 0 2em;
-					}
 				}
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	section.hero {
+		.row { margin: 0; }
+		.payments { position: relative; width: auto; }
+		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
+	}
+	body {
+		padding-bottom: 500px !important;
+	}
+}
+@media only screen and (max-width: 480px) {
+	section.hero {
+		.row { margin: 0; }
+		.payments { position: relative; width: auto; }
+		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
+	}
+	body {
+		padding-bottom: 500px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	section.hero {
+		.row { margin: 0; }
+		.payments { position: relative; width: auto; }
+		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
+	}
+	body {
+		padding-bottom: 500px !important;
+	}
+}
+@media only screen and (max-width: 992px) {
+	section.hero {
+		.row { margin: 0; }
+		.payments { position: relative; width: auto; }
+		.payments .box { border-bottom: 1px solid rgba(0,0,0,0.10); }
+	}
+	body {
+		padding-bottom: 500px !important;
 	}
 }
